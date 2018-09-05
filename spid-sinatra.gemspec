@@ -9,10 +9,8 @@ Gem::Specification.new do |spec|
   spec.version       = Spid::Sinatra::VERSION
   spec.authors       = ["David Librera"]
   spec.email         = ["davidlibrera@gmail.com"]
-
-  spec.summary       = "Sinatra wrapper around spid-ruby"
-  spec.description   = "Sinatra wrapper around spid-ruby"
   spec.homepage      = "https://github.com/cantierecreativo/spid-sinatra"
+  spec.summary       = "Sinatra wrapper around spid-ruby"
   spec.license       = "BSD-3"
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
@@ -27,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.3.0"
 
   spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "bundler-audit", "~> 0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rubocop", "0.57.2"
