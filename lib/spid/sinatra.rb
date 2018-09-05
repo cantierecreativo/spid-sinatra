@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require "spid/sinatra/version"
 
 module Spid
-  module Sinatra
+  module Sinatra # :nodoc:
     # Your code goes here...
   end
 end

@@ -1,0 +1,37 @@
+require: rubocop-rspec
+
+AllCops:
+  Exclude:
+    - bin/stubs/*
+  TargetRubyVersion: 2.3
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+    - spid-sinatra.gemspec
+    - lib/**/*.rake
+Metrics/LineLength:
+  Exclude:
+    - spid-sinatra.gemspec
+RSpec/DescribeClass:
+  Exclude:
+    - spec/integration/**/*.rb
+    - spec/requests/**/*.rb
+RSpec/FilePath:
+  Exclude:
+    - spec/integration/**/*.rb
+    - spec/requests/**/*.rb
+RSpec/MultipleExpectations:
+  Max: 2
+RSpec/NestedGroups:
+  Enabled: false
+RSpec/SubjectStub:
+  Enabled: false
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/WordArray:
+  EnforcedStyle: brackets
