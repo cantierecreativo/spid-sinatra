@@ -1,7 +1,10 @@
 # Changelog
 
 ## [Unreleased]
-## 0.1.1
+### Fixed
+- Missing require of 'spid' gem
+
+## [0.2.0]
 - Add spid depencency
 
 ## 0.1.0
