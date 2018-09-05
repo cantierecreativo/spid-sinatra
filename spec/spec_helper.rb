@@ -1,7 +1,23 @@
 # frozen_string_literal: true
 
+require "simplecov"
+require "coveralls"
+
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new(
+  [
+    SimpleCov::Formatter::HTMLFormatter,
+    Coveralls::SimpleCov::Formatter
+  ]
+)
+
+SimpleCov.start do
+  add_filter "spec/"
+end
+
 require "bundler/setup"
 require "spid/sinatra"
+
+Dir[File.join("./spec/support/**/*.rb")].each { |f| require f }
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
