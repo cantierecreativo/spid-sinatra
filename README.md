@@ -1,8 +1,14 @@
-# Spid::Sinatra
+# spid-sinatra
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/spid/sinatra`. To experiment with that code, run `bin/console` for an interactive prompt.
+| Project                | Spid Sinatra |
+| ---------------------- | ------------ |
+| Gem name               | spid-sinatra |
+| License                | [BSD 3](https://github.com/cantierecreativo/spid-sinatra/blob/master/LICENSE) |
+| Version                | [![Gem Version](https://badge.fury.io/rb/spid-sinatra.svg)](http://badge.fury.io/rb/spid-sinatra) |
+| Continuous integration | [![Build Status](https://secure.travis-ci.org/cantierecreativo/spid-sinatra.svg?branch=master)](https://travis-ci.org/cantierecreativo/spid-sinatra) |
+| Test coverate          | [![Coverage Status](https://coveralls.io/repos/github/cantierecreativo/spid-sinatra/badge.svg?branch=master)](https://coveralls.io/github/cantierecreativo/spid-sinatra?branch=master) |
+| Credits                | [Contributors](https://github.com/cantierecreativo/spid-sinatra/graphs/contributors) |
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
